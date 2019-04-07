@@ -1,0 +1,115 @@
+/**
+ * Color Code: #6E4E37;
+ * 
+ */
+
+.top-bar-v1 .top-contact .list,
+.top-bar-v1 .top-contact .list a,
+.top-bar-v1 .top-social ul li a,
+.menuzord-menu > li.active > a, 
+.menuzord-menu > li:hover > a,
+.appointment-v1 .right a:hover,
+.service-v1 .icon span,
+.news-v1 .text h3 a:hover,
+.news-v1 .date .day::before,
+.about-v1 .facility-title,
+.heading-normal h2,
+.team-v3 .text h3 a:hover,
+.team-detail .team-detail-tab .nav-tabs > li > a,
+.team-detail .team-single .text p,
+.service-v3 .text h3 a:hover,
+.widget ul li a:hover,
+.blog h2,
+.blog h4,
+.blog .text ul.status li,
+.blog .text ul.status li a,
+.blog .image-holder .day::before,
+ul.gallery-menu li,
+.blog h3 a:hover,
+.author-info ul li a,
+.contact-v1 .icon {
+	color: #6E4E37!important;
+}
+
+.top-bar-v1 .top-social ul li a:hover,
+.appointment-v1,
+.appointment-v1 .right a,
+.team-v1 .owl-controls .owl-prev:hover, 
+.team-v1 .owl-controls .owl-next:hover,
+.team-v1 .social-icons ul li a,
+.news-v1 .owl-controls .owl-prev:hover, 
+.news-v1 .owl-controls .owl-next:hover,
+.news-v1 .date .day,
+.footer-social,
+.footer-social .item ul li,
+.footer-col h3::after,
+.scrollup i,
+.top-bar-v2,
+.service-v2 .icon span,
+.team-v2 .owl-controls .owl-prev:hover, 
+.team-v2 .owl-controls .owl-next:hover,
+.team-v2 .social-icons ul li a,
+.about-v1 .panel-default > .panel-heading,
+.about-v1 .facility-meter-fill,
+.about-v2 p.button a,
+.team-v3 .text p.button a:hover,
+.team-detail .team-single .social ul li a,
+ul.service-v3-menu li.filter.active,
+ul.service-v3-menu li:hover,
+.service-v3 .text p.button a:hover,
+.widget-search button,
+.blog a.download-btn,
+.blog .image-holder .day,
+.widget ul.tag-cloud li:hover,
+ul.gallery-menu li.filter.active,
+ul.gallery-menu li:hover,
+.gallery .inner .icons-inner a,
+.blog p.button a:hover,
+.blog .pagination ul li a,
+.author-box,
+.comment-list .text span.reply a,
+.respond .cform-1 .btn-success,
+.faq .panel-group .panel-heading a.collapsed::after,
+.faq .panel-group .panel-heading a::after,
+.error-page .content .button a,
+.error-page .title .inner,
+.under-construction-v1 .btn-success,
+.contact-v1 .item:hover,
+.contact-v1 .cform-1 .btn-success,
+.contact-v3 .icon,
+.contact-v2 .cform-2 .btn-success,
+.slider p.button a {
+	background: #6E4E37!important;
+}
+
+.service-v1 .icon span,
+.footer-social .item ul li a,
+.about-v1 .panel-default > .panel-heading,
+ul.service-v3-menu li.filter.active,
+ul.service-v3-menu li:hover,
+.widget-search button,
+.widget-search input:focus,
+.widget ul.tag-cloud li:hover,
+ul.gallery-menu li.filter.active,
+ul.gallery-menu li:hover,
+.respond .cform-1 .btn-success,
+.error-page .title .inner,
+.under-construction-v1 .btn-success,
+.contact-v1 .cform-1 .btn-success,
+.contact-v2 .cform-2 .btn-success {
+	border-color: #6E4E37!important;
+}
+
+.top-bar-v1 {
+	border-top-color: #6E4E37!important;
+}
+
+.heading-normal h2,
+.widget h4 {
+	border-bottom-color: #6E4E37!important;
+}
+
+.counter-v1 .counter-text,
+.team-v3 .social-icons ul li a {
+	background: rgba(110, 78, 55, 0.7);
+}
