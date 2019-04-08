@@ -24,7 +24,8 @@ Comments:	'.$_POST['comments'].'
     
     // Authentication  
     $mail->Username   = "admin@l3rodas.com.br"; // Your full Gmail address
-    $mail->Password   = "h0F59nOC5X"; // Your Gmail password
+    $mail->Password   = "v0Fg9n#C5b"; // Your Gmail password
+    // $mail->Password   = "h0F59nOC5X"; // Your Gmail password
       
     // Compose
     $mail->SetFrom($_POST['emailid'], $_POST['fullname']);
