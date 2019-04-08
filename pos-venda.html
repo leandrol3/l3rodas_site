@@ -54,28 +54,28 @@
 		
 			<!-- Top Bar Start -->
 			<div class="top-bar-v1">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 top-contact">
-							<div class="list">
-								<i class="fa fa-envelope"></i> <a href="mailto:vendas@l3rodas.com.br">vendas@l3rodas.com.br</a>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 top-contact">
+								<div class="list">
+									<i class="fa fa-envelope"></i> <a href="mailto:vendas@l3rodas.com.br" onclick="gtag('event', 'email', {'event_category': 'conversao','event_label': 'topbar','value': 5})">vendas@l3rodas.com.br</a>
+								</div>
+								<div class="list">
+									<i class="fa fa-phone"></i> (11) 3975-1546
+								</div>
+								<div class="list">
+									<a href="https://api.whatsapp.com/send?phone=5511979874607" onclick="gtag('event', 'whatsapp', {'event_category': 'conversao','event_label': 'topbar','value': 5})"> <i class="fa fa-whatsapp"></i> (11) 97987-4607 </a>
+								</div>
 							</div>
-							<div class="list">
-								<i class="fa fa-phone"></i> (11) 3975-1546
+							<div class="col-md-4 top-social">
+								<ul>
+									<li><a href="https://www.facebook.com/l3rodas/" target="_blank" onclick="gtag('event', 'facebook', {'event_category': 'navegacao','event_label': 'topbar','value': 1})"><i class="fa fa-facebook"></i></a></li>
+									<!-- <li><a href="https://www.linkedin.com/in/l3-rodas-com%C3%A9rcio-de-rodas-e-rod%C3%ADzios-62838b13a/" target="_blank"><i class="fa fa-linkedin"></i></a></li> -->
+								</ul>
 							</div>
-							<div class="list">
-								<a href="https://api.whatsapp.com/send?phone=5511979874607"> <i class="fa fa-whatsapp"></i> (11) 97987-4607 </a>
-							</div>
-						</div>
-						<div class="col-md-4 top-social">
-							<ul>
-								<li><a href="https://www.facebook.com/l3rodas/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-								<!-- <li><a href="https://www.linkedin.com/in/l3-rodas-com%C3%A9rcio-de-rodas-e-rod%C3%ADzios-62838b13a/" target="_blank"><i class="fa fa-linkedin"></i></a></li> -->
-							</ul>
 						</div>
 					</div>
 				</div>
-			</div>
 		<!-- Top Bar End -->
 
 		<!-- Header Start -->
@@ -152,9 +152,10 @@
 
 											<div class="gap-small"></div>
 											<p>
-												<a href="contato.html" class="btn btn-success">
+												<a href="contato.html" class="btn btn-success" onclick="gtag('event', 'contato_pos_venda', {'event_category': 'navegacao','event_label': 'pos_venda','value': 1})">
 													Entre em contato
 												</a>
+
 											</p>
 										</div>
 							
@@ -295,19 +296,6 @@
 	<script src="js/waypoints.min.js"></script> 
 	<script src="js/jquery.counterup.min.js"></script>
 	<script src="js/modernizr.min.js"></script>
-	<script src="js/custom.js"></script>
-
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-92719912-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-	
-	
+	<script src="js/custom.js"></script>	
 </body>
 </html>

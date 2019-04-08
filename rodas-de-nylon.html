@@ -68,18 +68,18 @@
 					<div class="row">
 						<div class="col-md-6 top-contact">
 							<div class="list">
-								<i class="fa fa-envelope"></i> <a href="mailto:vendas@l3rodas.com.br">vendas@l3rodas.com.br</a>
+								<i class="fa fa-envelope"></i> <a href="mailto:vendas@l3rodas.com.br" onclick="gtag('event', 'email', {'event_category': 'conversao','event_label': 'rodas_nylon','value': 5})">vendas@l3rodas.com.br</a>
 							</div>
 							<div class="list">
 								<i class="fa fa-phone"></i> (11) 3975-1546
 							</div>
 							<div class="list">
-								<a href="https://api.whatsapp.com/send?phone=5511979874607"> <i class="fa fa-whatsapp"></i> (11) 97987-4607 </a>
+								<a href="https://api.whatsapp.com/send?phone=5511979874607" onclick="gtag('event', 'whatsapp', {'event_category': 'conversao','event_label': 'rodas_nylon','value': 5})"> <i class="fa fa-whatsapp"></i> (11) 97987-4607 </a>
 							</div>
 						</div>
 						<div class="col-md-4 top-social">
 							<ul>
-								<li><a href="https://www.facebook.com/l3rodas/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://www.facebook.com/l3rodas/" target="_blank" onclick="gtag('event', 'facebook', {'event_category': 'navegacao','event_label': 'rodas_nylon','value': 1})"><i class="fa fa-facebook"></i></a></li>
 								<!-- <li><a href="https://www.linkedin.com/in/l3-rodas-com%C3%A9rcio-de-rodas-e-rod%C3%ADzios-62838b13a/" target="_blank"><i class="fa fa-linkedin"></i></a></li> -->
 							</ul>
 						</div>
@@ -185,9 +185,9 @@
 								<!-- Team Detail Tab Start -->
 								<div class="team-detail-tab">
 									<ul class="nav nav-tabs">
-										<li class="active"><a href="#tab1" data-toggle="tab" aria-expanded="true">Especificações Técnicas</a></li>
-										<li class=""><a href="#tab3" data-toggle="tab" aria-expanded="false" onclick="gtag('event', 'solicitacao_orcamento', {'event_category': 'navegacao','event_label': 'rodas_nylon','event_value': '5'})">Solicite um Orçamento</a></li>
-										<li class=""><a href="#tab4" data-toggle="tab" aria-expanded="false" onclick="gtag('event', 'contato', {'event_category': 'navegacao','event_label': 'rodas_nylon','event_value': '5'})">Contato</a></li>
+										<li class="active"><a href="#tab1" data-toggle="tab" aria-expanded="true" onclick="gtag('event', 'clique', {'event_category': 'navegacao','event_label': 'especificao_tecnica','value': 1})">Especificações Técnicas</a></li>
+										<li class=""><a href="#tab3" data-toggle="tab" aria-expanded="false" onclick="gtag('event', 'clique', {'event_category': 'navegacao','event_label': 'solicite_orcamento','value': 1})">Solicite um Orçamento</a></li>
+										<li class=""><a href="#tab4" data-toggle="tab" aria-expanded="false" onclick="gtag('event', 'clique', {'event_category': 'navegacao','event_label': 'contato','value': 1})">Contato</a></li>
 									</ul>
 
 									<!-- Tab Content Start -->
@@ -482,7 +482,7 @@
 																</div>
 																<div class="form-group">
 																	<div class="col-sm-12">
-																		<input type="submit" value="Receba um Orçamento" class="btn btn-success">
+																		<input type="submit" value="Receba um Orçamento" class="btn btn-success" onclick="gtag('event', 'submit_form_cotacao', {'event_category': 'conversao','event_label': 'rodas_nylon','value': 5})">
 																	</div>
 																</div>
 															</form>
@@ -646,8 +646,6 @@
 			</a>
 
 		</div>
-
-
 		<!-- Scripts -->
 		<script src="js/jquery-2.2.4.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -662,15 +660,5 @@
 		<script src="js/jquery.counterup.min.js"></script>
 		<script src="js/modernizr.min.js"></script>
 		<script src="js/custom.js"></script>
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-92719912-1', 'auto');
-			ga('send', 'pageview');
-
-		</script>
 	</body>
 	</html>
