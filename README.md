@@ -5,5 +5,8 @@
 # Realize as alterações
 
 # Atualize a versão no git
+```git add .```
+```git commit -m "Comentario da versao"```
+```git push origin```
 
-# Atualize os arquivos no servidor
+# Atualize os arquivos no servidor FTP
